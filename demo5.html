@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>demo5</title>
+    </head>
+    <body>
+        <button onclick="change()">add</button>
+        <div id="result"></div>
+    </body>
+    <script>
+    var div=document.getElementById("result")
+    function change()
+    {
+        var listitem=document.createElement("h1")
+        listitem.textContent="Hello"
+        div.append(listitem)
+    }
+    </script>
+</html>

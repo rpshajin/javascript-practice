@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>demo3</title>
+    </head>
+    <body>
+        <style>
+            .width{
+                background-color: black;
+                height: 100px;
+                width: 100px;
+                transition: 3s;
+            }
+           .change{
+                height: 100px;
+                width: 900px;
+                transition: 3s;
+                background-color: blue;
+            }
+        </style>
+        <div id="div" class="width"></div>
+        <button onclick="change()">Change color</button>
+    </body>
+    <script>
+     var div = document.getElementById("div")
+     function change()
+     {
+        div.setAttribute("class","change")
+     }
+    </script>
+</html>

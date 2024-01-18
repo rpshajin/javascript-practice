@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>demo6</title>
+    </head>
+    <body>
+        <h1 id="change" onclick="clk()">Name</h1>
+        <button onclick="john(event)">john</button>
+        <button onclick="praveen(event)">praveen</button>
+        <button onclick="jose(event)">jose</button>
+    </body> 
+    <script>
+        var words=document.getElementById("change")
+        function john()
+        {
+            words.textContent=event.target.textContent
+        }
+        function praveen()
+        {
+            words.textContent=event.target.textContent
+        }
+        function jose()
+        {
+            words.textContent=event.target.textContent
+        }
+    </script>
+</html>

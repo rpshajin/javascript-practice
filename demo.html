@@ -1,0 +1,22 @@
+<html>
+    <title>demo</title>
+    <body>
+        <input id="num1">
+        <input id="num2">
+        <button onclick="change2()">add</button>
+        <p id="ans">result</p>
+    </body>
+    <script>
+       var box1=document.getElementById("num1")
+       var box2=document.getElementById("num2")
+       var answ=document.getElementById("ans")
+       function change2()
+       {
+       var numa=Number(box1.value)
+       var numb=Number(box2.value)
+       var result=numa+numb
+       answ.textContent=result
+       }
+
+    </script>
+</html>

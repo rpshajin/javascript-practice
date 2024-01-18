@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>demo4</title>
+    </head>
+    <body>
+        <input id="type" onkeyup="update()">
+        <p id="enter"></p>
+    </body>
+    <script>
+        var a=document.getElementById("type")
+        var b=document.getElementById("enter")
+        function update()
+        {
+            b.textContent=a.value
+        }
+    </script>
+</html>
